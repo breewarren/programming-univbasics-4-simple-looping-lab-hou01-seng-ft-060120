@@ -8,4 +8,5 @@ end
 
 def loop_message_n_times (message, integer)
   puts message
+  message += integer
 end
