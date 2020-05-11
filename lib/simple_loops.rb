@@ -19,4 +19,6 @@ def output_array (array)
   count += 1
 end
 
-def return_string_array ()
+def return_string_array (array)
+  count = 0
+  while array[count]
